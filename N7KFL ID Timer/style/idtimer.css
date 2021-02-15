@@ -1,0 +1,70 @@
+﻿body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+	background-color: floralwhite;
+	width: 400px;
+    margin: 0 auto;
+    border: 3px solid dodgerblue;
+    padding: 0px 25px;
+}
+
+h1 {
+    font-size: 150%;
+	text-align: center;
+	color: dodgerblue;
+}
+
+h3 {
+    font-size: 75%;
+	color: black;
+	text-align: center;
+    padding: .25rem 0 .25rem 25px;
+    cursor: pointer;
+}
+
+footer {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75%;
+	position: relative;
+	padding: 10px 0;
+	margin: 5px;
+	height: .25rem;
+	width: 100%;
+	color: dodgerblue;
+	text-align: center;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #003657);
+  background-image: -moz-linear-gradient(top, #3498db, #003657);
+  background-image: -ms-linear-gradient(top, #3498db, #003657);
+  background-image: -o-linear-gradient(top, #3498db, #003657);
+  background-image: linear-gradient(to bottom, #3498db, #003657);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 3px 1px 5px #10d2e8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 10px 20px 10px 20px;
+  border: solid #2c6b8a 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #57bcff);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #57bcff);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #57bcff);
+  background-image: -o-linear-gradient(top, #3cb0fd, #57bcff);
+  background-image: linear-gradient(to bottom, #3cb0fd, #57bcff);
+  text-decoration: none;
+}
+
+#timeDisplay {
+	font-size: 3.5rem;
+	color: blue;
+	text-align: center;
+}

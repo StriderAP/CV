@@ -1,0 +1,35 @@
+﻿body {
+    background-color: azure;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 45px;
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+.h3-link {
+    color: #66BFBF;
+    float: left;
+    margin-left: 20px;
+}
+
+/************************************CLASS SELECTORS****************************************/
+.main-img {
+    border-radius: 15px 20px;
+}
+
+/*************************************ID SELECTORS*****************************************/
+#heading {
+    color: blue;
+}

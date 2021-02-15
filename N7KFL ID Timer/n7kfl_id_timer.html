@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>N7KFL ID Timer</title>
+	<link rel="stylesheet" href="style/idtimer.css" />
+	<script src="script/jquery-3.5.1.min.js"></script>
+    <script src="script/idtimer.js"></script>
+</head>
+<body>
+	<h1>N7KFL ID Timer</h1>
+	<main id="timer">
+        <h3 id="head3">Remaining time to ID requirement:</h3>
+		<p id="timeDisplay">
+			<span id="minutes">10</span>:<span id="seconds">00</span>
+		</p>
+		<p id="buttonbar" align="center">
+			<input type="button" class="btn" id="timer_start" value="Start" onClick="startTimer()" />
+			<input type="button" class="btn" id="timer_stop" value="Stop" onClick="stopTimer()" />
+			<input type="button" class="btn" id="timer_reset" value="Reset" onClick="resetTimer()" />
+			<input type="button" class="btn" id="close_window" value="Exit" onClick="window.close()" />
+		</p>
+    </main>
+	<footer>&copy 2021 David A. Poulson, N7KFL</footer>
+</body>
+</html>

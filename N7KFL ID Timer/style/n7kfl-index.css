@@ -1,0 +1,17 @@
+﻿body {
+    margin: 0;
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-div {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 5px 15px;
+}
